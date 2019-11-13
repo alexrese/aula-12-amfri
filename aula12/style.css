@@ -21,3 +21,40 @@ body{
     top: -50px;
 }
 
+.div-title-form h2{
+    float: left;
+    color: white;
+}
+.div-perfil{
+    float: right;
+    color: white;
+}
+.div-perfil i{
+    font-size:24px;
+}
+button{
+    color: #7500d9;
+    font-weight: bold;
+    background-color: white;
+    padding:8px 16px; 
+    border: none;
+}
+
+.perfil-circle{
+    float: right;
+}
+
+.circle {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .circle img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
