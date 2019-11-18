@@ -10,7 +10,7 @@ body{
 .div-inferior{
     background-color: linen;
 }
-
+.align-center{text-align: center;}
 .div-form{
     width: 800px;
     height: 600px;
@@ -19,6 +19,18 @@ body{
     z-index: 100;
     position: relative;
     top: -50px;
+}
+h2{
+    margin-left: 40px;
+}
+h3{
+    display: inline;
+    padding: 10px 20px 10px 20px;
+}
+h3:hover{
+    color: #7500d9;
+    font-weight: bold;
+    border-bottom: 2px solid #7500d9;
 }
 
 .div-title-form h2{
@@ -31,13 +43,16 @@ body{
 }
 .div-perfil i{
     font-size:24px;
+    margin:14px 20px 0 0;
 }
 button{
+    margin: 0 20px 0 0;
     color: #7500d9;
     font-weight: bold;
     background-color: white;
-    padding:8px 16px; 
+    padding:10px 26px; 
     border: none;
+    border-radius: 3px;
 }
 
 .perfil-circle{
@@ -45,6 +60,7 @@ button{
 }
 
 .circle {
+    margin: 10px 20px 0 0;
     background-color: #aaa;
     border-radius: 50%;
     width: 35px;
