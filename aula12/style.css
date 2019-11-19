@@ -1,17 +1,22 @@
-body{
+body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.div-superior{
+.div-superior {
     height: 200px;
     background-color: #7500d9;
 }
 
-.div-inferior{
+.div-inferior {
     background-color: linen;
 }
-.align-center{text-align: center;}
-.div-form{
+
+.align-center {
+    text-align: center;
+}
+
+.div-form {
     width: 800px;
     height: 600px;
     background-color: white;
@@ -20,42 +25,66 @@ body{
     position: relative;
     top: -50px;
 }
-h2{
+
+h2 {
     margin-left: 40px;
 }
-h3{
+
+h3 {
     display: inline;
     padding: 10px 20px 10px 20px;
 }
-h3:hover{
+
+.div-form-description {
+    padding: 40px;
+}
+
+.div-form-description span {
+    color: #aaa;
+}
+
+.div-question {
+    border-top: 2px solid #aaa;
+    border-left: 3px solid #4d86ff;
+    height: 300px;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+h3:hover {
     color: #7500d9;
     font-weight: bold;
     border-bottom: 2px solid #7500d9;
 }
 
-.div-title-form h2{
+.div-title-form h2 {
     float: left;
     color: white;
 }
-.div-perfil{
+
+.div-perfil {
     float: right;
     color: white;
 }
-.div-perfil i{
-    font-size:24px;
-    margin:14px 20px 0 0;
+
+.div-perfil i {
+    font-size: 24px;
+    margin: 14px 20px 0 0;
 }
-button{
+
+button {
     margin: 0 20px 0 0;
     color: #7500d9;
     font-weight: bold;
     background-color: white;
-    padding:10px 26px; 
+    padding: 10px 26px;
     border: none;
     border-radius: 3px;
 }
 
-.perfil-circle{
+.perfil-circle {
     float: right;
 }
 
@@ -67,10 +96,10 @@ button{
     height: 35px;
     overflow: hidden;
     position: relative;
-  }
-  
-  .circle img {
+}
+
+.circle img {
     position: absolute;
     bottom: 0;
     width: 100%;
-  }
+}
